@@ -1,0 +1,57 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: verdana;
+	max-width: 90rem;
+    margin: auto;
+}
+
+.container {
+    background: linear-gradient(0.25turn, #B9345A,#E5D68A,#03C6C7);
+    height: 820px;
+    width: 800px;
+    margin-left: 300px;
+}
+
+   h1 {
+	text-align: center;
+	margin-top: 50px;
+    padding-top: 20px;
+}
+
+.filter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.filter label {
+	margin-right: 10px;
+}
+
+.filter select {
+	margin-right: 20px;
+}
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
